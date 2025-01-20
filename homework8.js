@@ -24,3 +24,4 @@ var trustedEmails = arr.filter(user => trustedEmailPattern.test(user.email)).map
 
 // Виводим результат
 console.log(trustedEmails);
+
